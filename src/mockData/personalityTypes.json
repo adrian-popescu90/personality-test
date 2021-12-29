@@ -1,0 +1,102 @@
+[
+  {
+    "category": "Analysts",
+    "types": [
+      {
+        "title": "Architect",
+        "type": "INTJ-A / INTJ-T",
+        "description": "Imaginative and strategic thinkers, with a plan for everything."
+      },
+      {
+        "title": "Logician",
+        "type": "INTP-A / INTP-T",
+        "description": "Innovative inventors with an unquenchable thirst for knowledge."
+      },
+      {
+        "title": "Commander",
+        "type": "ENTJ-A / ENTJ-T",
+        "description": "Bold, imaginative and strong-willed leaders, always finding a way – or making one."
+      },
+      {
+        "title": "Debater",
+        "type": "ENTP-A / ENTP-T",
+        "description": "Smart and curious thinkers who cannot resist an intellectual challenge."
+      }
+    ]
+  },
+  {
+    "category": "Diplomats",
+    "types": [
+      {
+        "title": "Advocate",
+        "type": "INFJ-A / INFJ-T",
+        "description": "Quiet and mystical, yet very inspiring and tireless idealists."
+      },
+      {
+        "title": "Mediator",
+        "type": "INFP-A / INFP-T",
+        "description": "Poetic, kind and altruistic people, always eager to help a good cause."
+      },
+      {
+        "title": "Protagonist",
+        "type": "ENFJ-A / ENFJ-T",
+        "description": "Charismatic and inspiring leaders, able to mesmerize their listeners."
+      },
+      {
+        "title": "Campaigner",
+        "type": "ENFP-A / ENFP-T",
+        "description": "Enthusiastic, creative and sociable free spirits, who can always find a reason to smile."
+      }
+    ]
+  },
+  {
+    "category": "Sentinels",
+    "types": [
+      {
+        "title": "Logistician",
+        "type": "ISTJ-A / ISTJ-T",
+        "description": "Practical and fact-minded individuals, whose reliability cannot be doubted."
+      },
+      {
+        "title": "Defender",
+        "type": "ISFJ-A / ISFJ-T",
+        "description": "Very dedicated and warm protectors, always ready to defend their loved ones."
+      },
+      {
+        "title": "Executive",
+        "type": "ESTJ-A / ESTJ-T",
+        "description": "Excellent administrators, unsurpassed at managing things – or people."
+      },
+      {
+        "title": "Consul",
+        "type": "ESFJ-A / ESFJ-T",
+        "description": "Extraordinarily caring, social and popular people, always eager to help."
+      }
+    ]
+  },
+  {
+    "category": "Explorers",
+    "types": [
+      {
+        "title": "Virtuoso",
+        "type": "ISTP-A / ISTP-T",
+        "description": "Bold and practical experimenters, masters of all kinds of tools."
+      },
+      {
+        "title": "Adventurer",
+        "type": "ISFP-A / ISFP-T",
+        "description": "Flexible and charming artists, always ready to explore and experience something new."
+      },
+      {
+        "title": "Entrepreneur",
+        "type": "ESTP-A / ESTP-T",
+        "description": "Smart, energetic and very perceptive people, who truly enjoy living on the edge."
+      },
+      {
+        "title": "Entertainer",
+        "type": "ESFP-A / ESFP-T",
+        "description": "Spontaneous, energetic and enthusiastic people – life is never boring around them."
+      }
+    ]
+  }
+]
