@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { Container, Button } from "react-bootstrap";
 
@@ -18,13 +18,17 @@ function Test() {
 	const [score, setScore] = useState([]);
 	const [ratingValue, setRatingValue] = useState(0);
 
+	useEffect(() => {
+		setRatingValue(score[currentStep - 1] || 0);
+	}, [currentStep]);
+
 	const handleRating = (rate) => {
 		setRatingValue(rate / 20);
 	};
 
 	const handleBack = () => {
 		currentStep--;
-		history.push(`/take-the-test/${currentStep}`);
+		history.push(`/test/${currentStep}`);
 	};
 
 	const handleNext = () => {
@@ -38,7 +42,7 @@ function Test() {
 
 		if (currentStep < questions.length) {
 			currentStep++;
-			history.push(`/take-the-test/${currentStep}`);
+			history.push(`/test/${currentStep}`);
 		} else {
 			let finalScore = 0;
 			for (let i = 0; i < scoreClone.length; i++) {

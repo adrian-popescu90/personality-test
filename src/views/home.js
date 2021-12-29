@@ -41,7 +41,7 @@ function Home() {
 			))}
 
 			<Container className="text-center mt-4 mb-4">
-				<LinkContainer to="/take-the-test/1">
+				<LinkContainer to="/test/1">
 					<Button size="lg">Find your type</Button>
 				</LinkContainer>
 			</Container>
